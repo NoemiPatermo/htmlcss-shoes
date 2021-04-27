@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Rubik Mono One';
+}
+.container-1{
+    background-color: red;
+    height: 100vh;
+    position: relative;
+}
+.centered-container{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; 
+}
+
+.logo-text{
+    color: yellow;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.logo-green{
+    color: green;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.container-2{
+    background-color: green;
+    height: 100vh;
+    position: relative;
+}
+
+.centered-container-2{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 800px;
+}
+.container-3{
+    background-color: yellow;
+    height: 100vh;
+    position: relative;
+
+}.centered-container-3{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 800px;
+}
